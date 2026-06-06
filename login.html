@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Login - Telesupport Hub{% endblock %}
+{% block content %}
+  <section class="form-wrap">
+    <h1>Login</h1>
+    <form method="post" class="form-card">
+      <label>Email
+        <input type="email" name="email" required>
+      </label>
+      <label>Password
+        <input type="password" name="password" required>
+      </label>
+      <button class="button" type="submit">Login</button>
+    </form>
+  </section>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}New Ticket - Telesupport Hub{% endblock %}
+{% block content %}
+  <section class="form-wrap wide">
+    <h1>Raise Support Ticket</h1>
+    <form method="post" class="form-card">
+      <label>Issue Title
+        <input type="text" name="title" required>
+      </label>
+      <div class="grid-2">
+        <label>Category
+          <select name="category" required>
+            <option>Internet</option>
+            <option>Mobile Network</option>
+            <option>Billing</option>
+            <option>Landline</option>
+            <option>Service Request</option>
+          </select>
+        </label>
+        <label>Priority
+          <select name="priority" required>
+            <option>Low</option>
+            <option selected>Medium</option>
+            <option>High</option>
+            <option>Critical</option>
+          </select>
+        </label>
+      </div>
+      <label>Location
+        <input type="text" name="location" required>
+      </label>
+      <label>Description
+        <textarea name="description" rows="6" required></textarea>
+      </label>
+      <button class="button" type="submit">Submit Ticket</button>
+    </form>
+  </section>
+{% endblock %}

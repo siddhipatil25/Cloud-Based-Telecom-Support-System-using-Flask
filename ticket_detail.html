@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Ticket #{{ ticket.id }} - Telesupport Hub{% endblock %}
+{% block content %}
+  <section class="detail">
+    <div>
+      <p class="eyebrow">Ticket #{{ ticket.id }}</p>
+      <h1>{{ ticket.title }}</h1>
+      <p class="lead">{{ ticket.description }}</p>
+      <dl>
+        <dt>Customer</dt><dd>{{ ticket.customer.name }}</dd>
+        <dt>Category</dt><dd>{{ ticket.category }}</dd>
+        <dt>Location</dt><dd>{{ ticket.location }}</dd>
+        <dt>Created</dt><dd>{{ ticket.created_at.strftime('%d %b %Y, %I:%M %p') }}</dd>
+        <dt>Assigned To</dt><dd>{{ ticket.assigned_to.name if ticket.assigned_to else 'Unassigned' }}</dd>
+      </dl>
+    </div>
+
+    <aside class="panel">
+      <h2>Status</h2>
+      <p><span class="badge status">{{ ticket.status }}</span> <span class="badge">{{ ticket.priority }}</span></p>
+      {% if current_user.role in ['admin', 'agent', 'technician'] %}
+        <form method="post" action="{{ url_for('update_ticket', ticket_id=ticket.id) }}" class="stack">
+          <label>Status
+            <select name="status">
+              {% for status in ['Open', 'In Progress', 'Resolved', 'Closed'] %}
+                <option {% if ticket.status == status %}selected{% endif %}>{{ status }}</option>
+              {% endfor %}
+            </select>
+          </label>
+          <label>Priority
+            <select name="priority">
+              {% for priority in ['Low', 'Medium', 'High', 'Critical'] %}
+                <option {% if ticket.priority == priority %}selected{% endif %}>{{ priority }}</option>
+              {% endfor %}
+            </select>
+          </label>
+          {% if current_user.role == 'admin' %}
+            <label>Assign To
+              <select name="assigned_to_id">
+                <option value="">Unassigned</option>
+                {% for agent in agents %}
+                  <option value="{{ agent.id }}" {% if ticket.assigned_to_id == agent.id %}selected{% endif %}>{{ agent.name }} ({{ agent.role }})</option>
+                {% endfor %}
+              </select>
+            </label>
+          {% endif %}
+          <button class="button" type="submit">Update Ticket</button>
+        </form>
+      {% endif %}
+    </aside>
+  </section>
+{% endblock %}

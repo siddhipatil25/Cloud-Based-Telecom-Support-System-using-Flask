@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Users - Telesupport Hub{% endblock %}
+{% block content %}
+  <section class="page-heading">
+    <div>
+      <p class="eyebrow">Admin</p>
+      <h1>User Management</h1>
+    </div>
+  </section>
+
+  <section class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Created</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for user in users %}
+          <tr>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+            <td><span class="badge">{{ user.role }}</span></td>
+            <td>{{ user.created_at.strftime('%d %b %Y') }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+{% endblock %}

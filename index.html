@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+{% block title %}Telesupport Hub{% endblock %}
+{% block content %}
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Cloud telecom service desk</p>
+      <h1>TeleSupport Hub: Cloud-based telecom support with Flask on AWS</h1>
+      <p class="lead">A cloud-based telecom customer service portal for efficient customer support operations.</p>
+      <div class="actions">
+        <a class="button" href="{{ url_for('login') }}">Login</a>
+        <a class="button secondary" href="{{ url_for('register') }}">Create Customer Account</a>
+      </div>
+    </div>
+    <div class="panel">
+      <h2>Demo Accounts</h2>
+      <p><strong>Admin:</strong> admin@telesupport.com / admin123</p>
+      <p><strong>Agent:</strong> agent@telesupport.com / agent123</p>
+      <p><strong>Customer:</strong> customer@telesupport.com / customer123</p>
+    </div>
+  </section>
+
+  <section class="overview-section">
+    <p class="eyebrow">Project Overview</p>
+    <h2>Built for scalable telecom support management</h2>
+    <p>
+      TeleSupport Hub is a cloud-based telecom customer service portal designed for efficient management of customer support operations.
+      This project utilizes Flask for backend development, AWS EC2 for hosting the platform, and Amazon RDS for managing the underlying database.
+      The cloud-native architecture ensures high availability, scalability, and smooth performance for telecom service providers.
+    </p>
+  </section>
+
+  <section class="feature-section future-section">
+    <div class="section-heading">
+      <p class="eyebrow">Future Scope</p>
+      <h2>Planned enhancements for the platform</h2>
+    </div>
+    <ul class="scope-list">
+      <li>AI chatbot integration</li>
+      <li>Voice support system</li>
+      <li>Mobile application</li>
+      <li>Machine learning for issue prediction</li>
+      <li>Live video customer support</li>
+    </ul>
+  </section>
+
+  <section class="feature-section video-support-section">
+    <div class="section-heading">
+      <p class="eyebrow">Live Video Support</p>
+      <h2>Laptop-based customer video assistance</h2>
+    </div>
+    <div class="video-support-grid">
+      <div class="laptop-frame">
+        <div class="laptop-camera"></div>
+        <div class="video-screen">
+          <div class="video-agent">
+            <span>Support Agent</span>
+          </div>
+          <div class="video-customer">
+            <span>Customer</span>
+          </div>
+          <div class="video-controls">
+            <span>Mic</span>
+            <span>Camera</span>
+            <span>End Call</span>
+          </div>
+        </div>
+        <div class="laptop-base"></div>
+      </div>
+      <div class="video-copy">
+        <h3>Remote issue diagnosis from any laptop</h3>
+        <p>
+          Future video support can help agents guide customers through router setup, cable checks,
+          service troubleshooting, and device configuration without requiring an immediate field visit.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-section">
+    <div class="section-heading">
+      <p class="eyebrow">Scenarios</p>
+      <h2>AWS cloud use cases for TeleSupport Hub</h2>
+    </div>
+    <div class="scenario-grid">
+      <article class="scenario-card">
+        <span>Scenario 1</span>
+        <h3>Scalable Telecom Support Services</h3>
+        <p>
+          AWS EC2 provides scalable infrastructure to handle changing levels of customer interactions.
+          During peak periods such as service outages or new product launches, EC2 helps TeleSupport Hub
+          manage increased support requests while Flask handles backend operations like tickets, service
+          plans, and notifications.
+        </p>
+      </article>
+      <article class="scenario-card">
+        <span>Scenario 2</span>
+        <h3>Reliable Managed Database for Customer Data</h3>
+        <p>
+          Amazon RDS with MySQL stores customer data, service requests, and communication logs.
+          Automated backups, high availability, and secure data management help the system handle a
+          growing number of users while maintaining data reliability and integrity.
+        </p>
+      </article>
+      <article class="scenario-card">
+        <span>Scenario 3</span>
+        <h3>Secure Access Control</h3>
+        <p>
+          AWS IAM ensures that only authorized users such as customer service agents, technicians, and
+          supervisors can access restricted platform areas. This protects support tickets, customer details,
+          and analytics while maintaining telecom security and compliance standards.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="feature-section">
+    <div class="section-heading">
+      <p class="eyebrow">Key Features</p>
+      <h2>Core modules included in the system</h2>
+    </div>
+    <div class="feature-list">
+      <span>Secure Login Authentication</span>
+      <span>Cloud-Based Access</span>
+      <span>Complaint Ticket System</span>
+      <span>Ticket Priority Management</span>
+      <span>Real-Time Status Tracking</span>
+      <span>Email Notifications</span>
+      <span>Dashboard Analytics</span>
+      <span>Responsive Design</span>
+    </div>
+  </section>
+
+  <section class="feature-section">
+    <div class="section-heading">
+      <p class="eyebrow">Project Benefits</p>
+      <h2>Why Telesupport Hub helps telecom teams</h2>
+    </div>
+    <div class="feature-grid">
+      <article class="feature-card">
+        <h3>Faster Complaint Resolution</h3>
+        <p>Support teams can track every complaint, assign work quickly, and update ticket status in one place.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Centralized Support Management</h3>
+        <p>Admins, agents, technicians, and customers share a single system for complaint and service request handling.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Easy Cloud Access</h3>
+        <p>Users can access the platform online from anywhere, making support work easier for distributed teams.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Improved Customer Satisfaction</h3>
+        <p>Customers get clear ticket visibility and timely updates, which improves trust in telecom services.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Secure Data Handling</h3>
+        <p>Login-based access keeps customer complaint details and operational data protected by user role.</p>
+      </article>
+    </div>
+  </section>
+
+{% endblock %}

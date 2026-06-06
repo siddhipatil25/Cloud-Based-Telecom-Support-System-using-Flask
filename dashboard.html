@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}Dashboard - Telesupport Hub{% endblock %}
+{% block content %}
+  <section class="page-heading">
+    <div>
+      <p class="eyebrow">Live ticket tracking</p>
+      <h1>Dashboard</h1>
+    </div>
+    {% if current_user.role == 'customer' %}
+      <a class="button" href="{{ url_for('create_ticket') }}">Raise Ticket</a>
+    {% elif current_user.role == 'admin' %}
+      <a class="button" href="{{ url_for('create_project') }}">Create Project</a>
+    {% endif %}
+  </section>
+
+  <section class="stats">
+    <article><span>{{ stats.total }}</span>Total</article>
+    <article><span>{{ stats.open }}</span>Open</article>
+    <article><span>{{ stats.progress }}</span>In Progress</article>
+    <article><span>{{ stats.closed }}</span>Closed</article>
+  </section>
+
+  <section class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Issue</th>
+          <th>Category</th>
+          <th>Priority</th>
+          <th>Status</th>
+          <th>Assigned To</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for ticket in tickets %}
+          <tr>
+            <td>#{{ ticket.id }}</td>
+            <td><a href="{{ url_for('ticket_detail', ticket_id=ticket.id) }}">{{ ticket.title }}</a></td>
+            <td>{{ ticket.category }}</td>
+            <td><span class="badge">{{ ticket.priority }}</span></td>
+            <td><span class="badge status">{{ ticket.status }}</span></td>
+            <td>{{ ticket.assigned_to.name if ticket.assigned_to else 'Unassigned' }}</td>
+            <td>{{ ticket.created_at.strftime('%d %b %Y') }}</td>
+          </tr>
+        {% else %}
+          <tr>
+            <td colspan="7" class="empty">No tickets found.</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+  {% if current_user.role in ['admin', 'project_manager'] %}
+    <section class="page-heading section-spaced">
+      <div>
+        <p class="eyebrow">Project Manager</p>
+        <h1>Projects</h1>
+      </div>
+      {% if current_user.role == 'admin' %}
+        <a class="button secondary" href="{{ url_for('create_project') }}">Create Project</a>
+      {% endif %}
+    </section>
+
+    <section class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Project</th>
+            <th>Client</th>
+            <th>Priority</th>
+            <th>Status</th>
+            <th>Manager</th>
+            <th>Deadline</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for project in projects %}
+            <tr>
+              <td>#{{ project.id }}</td>
+              <td>{{ project.name }}</td>
+              <td>{{ project.client_name }}</td>
+              <td><span class="badge">{{ project.priority }}</span></td>
+              <td><span class="badge status">{{ project.status }}</span></td>
+              <td>{{ project.manager.name }}</td>
+              <td>{{ project.deadline.strftime('%d %b %Y') if project.deadline else 'Not set' }}</td>
+            </tr>
+          {% else %}
+            <tr>
+              <td colspan="7" class="empty">No projects found.</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+  {% endif %}
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Register - Telesupport Hub{% endblock %}
+{% block content %}
+  <section class="form-wrap">
+    <h1>Create Customer Account</h1>
+    <form method="post" class="form-card">
+      <label>Name
+        <input type="text" name="name" required>
+      </label>
+      <label>Email
+        <input type="email" name="email" required>
+      </label>
+      <label>Password
+        <input type="password" name="password" minlength="6" required>
+      </label>
+      <button class="button" type="submit">Register</button>
+    </form>
+  </section>
+{% endblock %}

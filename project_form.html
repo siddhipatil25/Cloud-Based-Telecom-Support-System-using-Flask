@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Create Project - Telesupport Hub{% endblock %}
+{% block content %}
+  <section class="form-wrap wide">
+    <h1>Create Project</h1>
+    <form method="post" class="form-card">
+      <label>Project Name
+        <input type="text" name="name" required>
+      </label>
+      <label>Client Name
+        <input type="text" name="client_name" required>
+      </label>
+      <div class="grid-2">
+        <label>Status
+          <select name="status" required>
+            <option selected>Planned</option>
+            <option>In Progress</option>
+            <option>On Hold</option>
+            <option>Completed</option>
+          </select>
+        </label>
+        <label>Priority
+          <select name="priority" required>
+            <option>Low</option>
+            <option selected>Medium</option>
+            <option>High</option>
+            <option>Critical</option>
+          </select>
+        </label>
+      </div>
+      <div class="grid-2">
+        <label>Start Date
+          <input type="date" name="start_date">
+        </label>
+        <label>Deadline
+          <input type="date" name="deadline">
+        </label>
+      </div>
+      <label>Description
+        <textarea name="description" rows="6" required></textarea>
+      </label>
+      <button class="button" type="submit">Create Project</button>
+    </form>
+  </section>
+{% endblock %}

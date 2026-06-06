@@ -1,0 +1,457 @@
+[42BC:3624][2026-05-25T21:46:16]i001: Burn v3.14.0.5722, Windows v10.0 (Build 19045: Service Pack 0), path: C:\Users\siddh\AppData\Local\Temp\{F26FD52D-3328-43C0-B9B4-9FBCF4011CE7}\.cr\python-3.12.3-amd64.exe
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'ActionLikeInstalling' to value 'Installing'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'ActionLikeInstallation' to value 'Setup'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'ShortVersion' to value '3.12'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'ShortVersionNoDot' to value '312'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'WinVer' to value '3.12'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'WinVerNoDot' to value '312'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'InstallAllUsers' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'InstallLauncherAllUsers' to value '-1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'TargetDir' to value ''
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'DefaultAllUsersTargetDir' to value '[ProgramFiles64Folder]Python[WinVerNoDot]'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'TargetPlatform' to value 'x64'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'DefaultJustForMeTargetDir' to value '[LocalAppDataFolder]Programs\Python\Python[WinVerNoDot]'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'OptionalFeaturesRegistryKey' to value 'Software\Python\PythonCore\[WinVer]\InstalledFeatures'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'TargetDirRegistryKey' to value 'Software\Python\PythonCore\[WinVer]\InstallPath'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'DefaultCustomTargetDir' to value ''
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'InstallAllUsersState' to value 'enabled'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'InstallLauncherAllUsersState' to value 'enabled'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'CustomInstallLauncherAllUsersState' to value '[InstallLauncherAllUsersState]'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'TargetDirState' to value 'enabled'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'CustomBrowseButtonState' to value 'enabled'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_core' to value '1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_exe' to value '1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_dev' to value '1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_lib' to value '1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_test' to value '1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_doc' to value '1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_tools' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_tcltk' to value '1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_pip' to value '1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_launcher' to value '-1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'Include_launcherState' to value 'enabled'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_symbols' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Include_debug' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'LauncherOnly' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'BlockedLauncher' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'DetectedLauncher' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'DetectedOldLauncher' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'AssociateFiles' to value '-1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'Shortcuts' to value '1'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'PrependPath' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'AppendPath' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'CompileAll' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing numeric variable 'SimpleInstall' to value '0'
+[42BC:3624][2026-05-25T21:46:16]i000: Initializing string variable 'SimpleInstallDescription' to value ''
+[42BC:3624][2026-05-25T21:46:16]i009: Command Line: '"-burn.clean.room=C:\Cloud-Based Telecom Support System using Flask\python-3.12.3-amd64.exe" -burn.filehandle.attached=548 -burn.filehandle.self=556 /quiet InstallAllUsers=0 "TargetDir=C:\Cloud-Based Telecom Support System using Flask\.python" Include_pip=1 Include_launcher=0 PrependPath=0 /log python-install.log'
+[42BC:3624][2026-05-25T21:46:16]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\Cloud-Based Telecom Support System using Flask\python-3.12.3-amd64.exe'
+[42BC:3624][2026-05-25T21:46:16]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\Cloud-Based Telecom Support System using Flask\'
+[42BC:3624][2026-05-25T21:46:16]i000: Setting string variable 'WixBundleLog' to value 'C:\Cloud-Based Telecom Support System using Flask\python-install.log'
+[42BC:3624][2026-05-25T21:46:16]i000: Setting string variable 'WixBundleName' to value 'Python 3.12.3 (64-bit)'
+[42BC:3624][2026-05-25T21:46:16]i000: Setting string variable 'WixBundleManufacturer' to value 'Python Software Foundation'
+[42BC:3624][2026-05-25T21:46:16]i000: Setting numeric variable 'CRTInstalled' to value 1
+[42BC:3B58][2026-05-25T21:46:16]i000: Did not find C:\Cloud-Based Telecom Support System using Flask\unattend.xml
+[42BC:3B58][2026-05-25T21:46:16]i000: Setting numeric variable 'InstallAllUsers' to value 0
+[42BC:3B58][2026-05-25T21:46:16]i000: Setting string variable 'TargetDir' to value 'C:\Cloud-Based Telecom Support System using Flask\.python'
+[42BC:3B58][2026-05-25T21:46:16]i000: Setting numeric variable 'Include_pip' to value 1
+[42BC:3B58][2026-05-25T21:46:16]i000: Setting numeric variable 'Include_launcher' to value 0
+[42BC:3B58][2026-05-25T21:46:16]i000: Setting numeric variable 'PrependPath' to value 0
+[42BC:3B58][2026-05-25T21:46:17]i000: Setting string variable 'ActionLikeInstalling' to value 'Installing'
+[42BC:3B58][2026-05-25T21:46:17]i000: Setting string variable 'ActionLikeInstallation' to value 'Setup'
+[42BC:3B58][2026-05-25T21:46:17]i000: Setting version variable 'WixBundleFileVersion' to value '3.12.3150.0'
+[42BC:3B58][2026-05-25T21:46:17]i000: Target OS is Windows 10 or later
+[42BC:3624][2026-05-25T21:46:17]i100: Detect begin, 52 packages
+[42BC:3624][2026-05-25T21:46:17]i103: Detected related package: {905ADE3D-6468-4BB9-ABB8-CBC5F9ABF8EF}, scope: PerMachine, version: 3.10.11150.0, language: 0 operation: MajorUpgrade
+[42BC:3624][2026-05-25T21:46:17]i000: Detected existing launcher install
+[42BC:3624][2026-05-25T21:46:17]i000: Setting numeric variable 'DetectedLauncher' to value 1
+[42BC:3624][2026-05-25T21:46:17]i000: Setting numeric variable 'InstallLauncherAllUsers' to value 1
+[42BC:3624][2026-05-25T21:46:17]i000: Setting numeric variable 'DetectedOldLauncher' to value 1
+[42BC:3624][2026-05-25T21:46:17]i103: Detected related package: {905ADE3D-6468-4BB9-ABB8-CBC5F9ABF8EF}, scope: PerMachine, version: 3.10.11150.0, language: 0 operation: MajorUpgrade
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: ucrt_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: ucrt_JustForMe, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: core_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: core_AllUsers_pdb, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: core_AllUsers_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: core_JustForMe, state: Present, cached: Complete
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: core_JustForMe_pdb, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: core_JustForMe_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: exe_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: exe_AllUsers, feature: DefaultFeature, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: exe_AllUsers, feature: Shortcuts, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: exe_AllUsers_pdb, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: exe_AllUsers_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: exe_JustForMe, state: Present, cached: Complete
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: exe_JustForMe, feature: DefaultFeature, state: Local
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: exe_JustForMe, feature: Shortcuts, state: Local
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: exe_JustForMe_pdb, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: exe_JustForMe_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: dev_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: dev_AllUsers_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: dev_JustForMe, state: Present, cached: Complete
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: dev_JustForMe_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: lib_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: lib_AllUsers_pdb, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: lib_AllUsers_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: lib_JustForMe, state: Present, cached: Complete
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: lib_JustForMe_pdb, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: lib_JustForMe_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: test_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: test_AllUsers_pdb, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: test_AllUsers_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: test_JustForMe, state: Present, cached: Complete
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: test_JustForMe_pdb, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: test_JustForMe_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: doc_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: doc_AllUsers, feature: DefaultFeature, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: doc_AllUsers, feature: Shortcuts, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: doc_JustForMe, state: Present, cached: Complete
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: doc_JustForMe, feature: DefaultFeature, state: Local
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: doc_JustForMe, feature: Shortcuts, state: Local
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: tcltk_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: tcltk_AllUsers, feature: DefaultFeature, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: tcltk_AllUsers, feature: AssociateFiles, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: tcltk_AllUsers, feature: Shortcuts, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: tcltk_AllUsers_pdb, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: tcltk_AllUsers_pdb, feature: Symbols, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: tcltk_AllUsers_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: tcltk_AllUsers_d, feature: DebugBinaries, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: tcltk_JustForMe, state: Present, cached: Complete
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: tcltk_JustForMe, feature: DefaultFeature, state: Local
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: tcltk_JustForMe, feature: AssociateFiles, state: Local
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: tcltk_JustForMe, feature: Shortcuts, state: Local
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: tcltk_JustForMe_pdb, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: tcltk_JustForMe_pdb, feature: Symbols, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: tcltk_JustForMe_d, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: tcltk_JustForMe_d, feature: DebugBinaries, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: launcher_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: launcher_AllUsers, feature: DefaultFeature, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: launcher_AllUsers, feature: AssociateFiles, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: launcher_JustForMe, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: launcher_JustForMe, feature: DefaultFeature, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i104: Detected package: launcher_JustForMe, feature: AssociateFiles, state: Absent
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: pip_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: pip_JustForMe, state: Present, cached: Complete
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: path_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: path_JustForMe, state: Absent, cached: Complete
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: appendpath_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: appendpath_JustForMe, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: compileall_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: compileallO_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: compileallOO_AllUsers, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: compileall_JustForMe, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: compileallO_JustForMe, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i101: Detected package: compileallOO_JustForMe, state: Absent, cached: None
+[42BC:3624][2026-05-25T21:46:17]i000: Setting numeric variable 'AssociateFiles' to value 1
+[42BC:3624][2026-05-25T21:46:17]i199: Detect complete, result: 0x0
+[42BC:3B58][2026-05-25T21:46:17]i000: Setting string variable 'ActionLikeInstalling' to value 'Installing'
+[42BC:3B58][2026-05-25T21:46:17]i000: Setting string variable 'ActionLikeInstallation' to value 'Setup'
+[42BC:3624][2026-05-25T21:46:17]i200: Plan begin, 52 packages, action: Install
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and not CRTInstalled and (Include_core or Include_exe or Include_pip) and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and not CRTInstalled and (Include_core or Include_exe or Include_pip) and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: ucrt_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and not CRTInstalled and (Include_core or Include_exe or Include_pip) and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and not CRTInstalled and (Include_core or Include_exe or Include_pip) and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: core_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: core_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: core_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_core or Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 2 msi features for package: exe_AllUsers
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: Shortcuts, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: exe_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: exe_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: exe_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 2 msi features for package: exe_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: DefaultFeature, state: Local, default requested: Unknown, ba requested: Local, execute action: None, rollback action: None
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: Shortcuts, state: Local, default requested: Unknown, ba requested: Local, execute action: None, rollback action: None
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and (Include_exe or Include_launcher or Include_pip) and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_dev and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_dev and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: dev_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_dev and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_dev and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: dev_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_dev and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_dev and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_dev and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_dev and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_lib and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_lib and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: lib_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_lib and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_lib and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: lib_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_lib and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_lib and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: lib_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_lib and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_lib and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_lib and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_lib and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_lib and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_lib and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_test and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_test and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: test_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_test and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_test and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: test_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_test and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_test and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: test_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_test and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_test and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_test and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_test and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_test and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_test and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_doc and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_doc and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 2 msi features for package: doc_AllUsers
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: Shortcuts, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: doc_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_doc and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_doc and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 2 msi features for package: doc_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: DefaultFeature, state: Local, default requested: Unknown, ba requested: Local, execute action: None, rollback action: None
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: Shortcuts, state: Local, default requested: Unknown, ba requested: Local, execute action: None, rollback action: None
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_tcltk and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_tcltk and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 3 msi features for package: tcltk_AllUsers
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: AssociateFiles, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: Shortcuts, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: tcltk_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_tcltk and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_tcltk and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 1 msi features for package: tcltk_AllUsers_pdb
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: Symbols, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: tcltk_AllUsers_pdb, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_tcltk and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_tcltk and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 1 msi features for package: tcltk_AllUsers_d
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: DebugBinaries, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: tcltk_AllUsers_d, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_tcltk and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_tcltk and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 3 msi features for package: tcltk_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: DefaultFeature, state: Local, default requested: Unknown, ba requested: Local, execute action: None, rollback action: None
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: AssociateFiles, state: Local, default requested: Unknown, ba requested: Local, execute action: None, rollback action: None
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: Shortcuts, state: Local, default requested: Unknown, ba requested: Local, execute action: None, rollback action: None
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_tcltk and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_tcltk and Include_symbols and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 1 msi features for package: tcltk_JustForMe_pdb
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: Symbols, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_tcltk and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_tcltk and Include_debug and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 1 msi features for package: tcltk_JustForMe_d
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: DebugBinaries, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]i052: Condition '(InstallAllUsers or InstallLauncherAllUsers) and Include_launcher and not DetectedLauncher' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition '(InstallAllUsers or InstallLauncherAllUsers) and Include_launcher and not DetectedLauncher' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 2 msi features for package: launcher_AllUsers
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: AssociateFiles, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: launcher_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not (InstallAllUsers or InstallLauncherAllUsers) and Include_launcher and not DetectedLauncher' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not (InstallAllUsers or InstallLauncherAllUsers) and Include_launcher and not DetectedLauncher' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i204: Plan 2 msi features for package: launcher_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: DefaultFeature, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]i203: Planned feature: AssociateFiles, state: Absent, default requested: Unknown, ba requested: Local, execute action: AddLocal, rollback action: Remove
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_pip and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and Include_pip and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: pip_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_pip and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and Include_pip and not LauncherOnly' evaluates to true.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and PrependPath and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and PrependPath and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: path_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and PrependPath and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and PrependPath and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and AppendPath and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and AppendPath and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w322: Skipping cross-scope dependency registration on package: appendpath_AllUsers, bundle scope: PerUser, package scope: PerMachine
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and AppendPath and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and AppendPath and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w321: Skipping dependency registration on package with no dependency providers: compileall_AllUsers
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w321: Skipping dependency registration on package with no dependency providers: compileallO_AllUsers
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w321: Skipping dependency registration on package with no dependency providers: compileallOO_AllUsers
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w321: Skipping dependency registration on package with no dependency providers: compileall_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w321: Skipping dependency registration on package with no dependency providers: compileallO_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]i052: Condition 'not InstallAllUsers and CompileAll and not LauncherOnly' evaluates to false.
+[42BC:3624][2026-05-25T21:46:17]w321: Skipping dependency registration on package with no dependency providers: compileallOO_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: ucrt_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: ucrt_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: core_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: core_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: core_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: core_JustForMe, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: core_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: core_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: exe_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: exe_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: exe_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: exe_JustForMe, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: exe_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: exe_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: dev_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: dev_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: dev_JustForMe, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: dev_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: lib_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: lib_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: lib_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: lib_JustForMe, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: lib_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: lib_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: test_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: test_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: test_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: test_JustForMe, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: test_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: test_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: doc_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: doc_JustForMe, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: tcltk_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: tcltk_AllUsers_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: tcltk_AllUsers_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: tcltk_JustForMe, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: tcltk_JustForMe_pdb, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: tcltk_JustForMe_d, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: launcher_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: launcher_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: pip_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: pip_JustForMe, state: Present, default requested: Present, ba requested: Present, execute: None, rollback: None, cache: No, uncache: No, dependency: Register
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: path_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: path_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: Yes, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: appendpath_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: appendpath_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: compileall_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: compileallO_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: compileallOO_AllUsers, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: compileall_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: compileallO_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i201: Planned package: compileallOO_JustForMe, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[42BC:3624][2026-05-25T21:46:17]i299: Plan complete, result: 0x0
+[42BC:3624][2026-05-25T21:46:17]i300: Apply begin
+[42BC:3624][2026-05-25T21:46:17]i370: Session begin, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51}, options: 0x7, disable resume: No
+[42BC:3624][2026-05-25T21:46:17]i000: Caching bundle from: 'C:\Users\siddh\AppData\Local\Temp\{9C494453-60AE-4566-89F0-81AD8EE429D4}\.be\python-3.12.3-amd64.exe' to: 'C:\Users\siddh\AppData\Local\Package Cache\{5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51}\python-3.12.3-amd64.exe'
+[42BC:3624][2026-05-25T21:46:17]i320: Registering bundle dependency provider: CPython-3.12, version: 3.12.3150.0
+[42BC:3624][2026-05-25T21:46:17]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51}, resume: Active, restart initiated: No, disable resume: No
+[42BC:3624][2026-05-25T21:46:17]i323: Registering package dependency provider: {3519C7D0-70D4-46F5-A0A9-3A115D73E2EC}, version: 3.12.3150.0, package: core_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i325: Registering dependency: {5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51} on package provider: {3519C7D0-70D4-46F5-A0A9-3A115D73E2EC}, package: core_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i323: Registering package dependency provider: {474E5879-A9D5-4DF5-9385-ADF7E224CEC7}, version: 3.12.3150.0, package: exe_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i325: Registering dependency: {5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51} on package provider: {474E5879-A9D5-4DF5-9385-ADF7E224CEC7}, package: exe_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i323: Registering package dependency provider: {8EB1F259-1326-4583-B383-F5C3D7C93D7D}, version: 3.12.3150.0, package: dev_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i325: Registering dependency: {5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51} on package provider: {8EB1F259-1326-4583-B383-F5C3D7C93D7D}, package: dev_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i323: Registering package dependency provider: {A1839EB2-3C30-4BCD-AACF-04F6FF6C90CD}, version: 3.12.3150.0, package: lib_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i325: Registering dependency: {5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51} on package provider: {A1839EB2-3C30-4BCD-AACF-04F6FF6C90CD}, package: lib_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i323: Registering package dependency provider: {575FEF7A-71FE-437E-91B0-D3838C1026DA}, version: 3.12.3150.0, package: test_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i325: Registering dependency: {5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51} on package provider: {575FEF7A-71FE-437E-91B0-D3838C1026DA}, package: test_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i323: Registering package dependency provider: {5C195EDE-CE8F-4C5C-A4B8-B60913B9C2B9}, version: 3.12.3150.0, package: doc_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i325: Registering dependency: {5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51} on package provider: {5C195EDE-CE8F-4C5C-A4B8-B60913B9C2B9}, package: doc_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i323: Registering package dependency provider: {A2FC8FF0-021A-431C-826E-E4B85D3F064F}, version: 3.12.3150.0, package: tcltk_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i325: Registering dependency: {5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51} on package provider: {A2FC8FF0-021A-431C-826E-E4B85D3F064F}, package: tcltk_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i323: Registering package dependency provider: {837260D6-3959-452B-A557-666302BEA663}, version: 3.12.3150.0, package: pip_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i325: Registering dependency: {5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51} on package provider: {837260D6-3959-452B-A557-666302BEA663}, package: pip_JustForMe
+[42BC:3624][2026-05-25T21:46:17]i351: Removing cached package: path_JustForMe, from path: C:\Users\siddh\AppData\Local\Package Cache\{8FB3DEFF-4D86-4889-9B0A-0FE7AE90D7C9}v3.12.3150.0\
+[42BC:3624][2026-05-25T21:46:17]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51}, resume: ARP, restart: None, disable resume: No
+[42BC:3624][2026-05-25T21:46:17]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5ee4d2b6-a5dc-4321-b6bd-3ebc98120a51}, resume: ARP, restart initiated: No, disable resume: No
+[42BC:3624][2026-05-25T21:46:17]i399: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+[42BC:3624][2026-05-25T21:46:17]i500: Shutting down, exit code: 0x0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: ActionLikeInstallation = Setup
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: ActionLikeInstalling = Installing
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: AppendPath = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: AssociateFiles = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: BlockedLauncher = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: CompileAll = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: CRTInstalled = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: CustomBrowseButtonState = enabled
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: CustomInstallLauncherAllUsersState = enabled
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: DefaultAllUsersTargetDir = C:\Program Files\Python312
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: DefaultCustomTargetDir = 
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: DefaultJustForMeTargetDir = C:\Users\siddh\AppData\Local\Programs\Python\Python312
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: DetectedLauncher = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: DetectedOldLauncher = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_core = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_debug = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_dev = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_doc = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_exe = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_launcher = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_launcherState = enabled
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_lib = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_pip = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_symbols = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_tcltk = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_test = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Include_tools = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: InstallAllUsers = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: InstallAllUsersState = enabled
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: InstallLauncherAllUsers = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: InstallLauncherAllUsersState = enabled
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: LauncherOnly = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: LocalAppDataFolder = C:\Users\siddh\AppData\Local\
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: OptionalFeaturesRegistryKey = Software\Python\PythonCore\3.12\InstalledFeatures
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: PrependPath = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: ProgramFiles64Folder = C:\Program Files\
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: Shortcuts = 1
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: ShortVersion = 3.12
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: ShortVersionNoDot = 312
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: SimpleInstall = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: SimpleInstallDescription = 
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: TargetDir = C:\Cloud-Based Telecom Support System using Flask\.python
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: TargetDirRegistryKey = Software\Python\PythonCore\3.12\InstallPath
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: TargetDirState = enabled
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: TargetPlatform = x64
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WinVer = 3.12
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WinVerNoDot = 312
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleAction = 5
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleElevated = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleFileVersion = 3.12.3150.0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleInstalled = 0
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleLog = C:\Cloud-Based Telecom Support System using Flask\python-install.log
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleManufacturer = Python Software Foundation
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleName = Python 3.12.3 (64-bit)
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleOriginalSource = C:\Cloud-Based Telecom Support System using Flask\python-3.12.3-amd64.exe
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleOriginalSourceFolder = C:\Cloud-Based Telecom Support System using Flask\
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleProviderKey = CPython-3.12
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleSourceProcessFolder = C:\Cloud-Based Telecom Support System using Flask\
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleSourceProcessPath = C:\Cloud-Based Telecom Support System using Flask\python-3.12.3-amd64.exe
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleTag = 
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleUILevel = 2
+[42BC:3624][2026-05-25T21:46:17]i410: Variable: WixBundleVersion = 3.12.3150.0
+[42BC:3624][2026-05-25T21:46:17]i007: Exit code: 0x0, restarting: No
